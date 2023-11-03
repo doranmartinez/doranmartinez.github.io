@@ -1,0 +1,23 @@
+{
+  "name": "doranmartinez.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./app/src/index.js",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "source": "./app/public/index.html",
+  "dependencies": {
+    "parcel": "^2.10.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
