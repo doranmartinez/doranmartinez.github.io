@@ -1,0 +1,48 @@
+{
+  "basic_info": {
+    "name": "Doran R. Martinez",
+    "title": "Backend Developer",
+    "bio": "I'm Doran, a software engineer based in California. I write about building scalable systems.",
+    "working_on": {
+      "text": "Currently working on",
+      "link": "https://github.com/doranmartinez/doranmartinez.github.io",
+      "project": "this portfolio."
+    },
+    "social": [
+      {
+        "name": "github",
+        "url": "https://www.github.com/doranmartinez",
+        "class": ""
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/doranmartinez/",
+        "class": ""
+      }
+    ]
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "Python",
+        "class": "devicon-html5-plain",
+        "level": "100"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-css3-plain",
+        "level": "60"
+      },
+      {
+        "name": "React",
+        "class": "devicon-angularjs-plain",
+        "level": "60"
+      },
+      {
+        "name": "Postgres",
+        "class": "devicon-mysql-plain",
+        "level": "75"
+      }
+    ]
+  }
+}
