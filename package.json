@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "type": "module",
-  "source": "app/public/index.html",
+  "source": "app/public/index.js",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
