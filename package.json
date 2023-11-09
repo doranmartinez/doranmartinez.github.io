@@ -2,17 +2,18 @@
   "name": "doranmartinez.github.io",
   "version": "1.0.0",
   "description": "",
-  "main": "./app/src/index.js",
+  "main": "app/src/index.js",
   "scripts": {
     "dev": "parcel",
-    "build": "parcel build",
+    "predeploy": "rm -rf dist && parcel build src/index.html --no-source-maps --public-url ./",
+    "build": "parcel build app/src/index.html",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
-  "source": "./app/public/index.html",
+  "source": "app/public/index.html",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -23,6 +24,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "process": "^0.11.10"
   }
 }
