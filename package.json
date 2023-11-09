@@ -5,12 +5,8 @@
   "main": "./app/src/index.js",
   "scripts": {
     "dev": "parcel",
-    "start": "parcel ./src/index.html",
-    "prebuild-dev": "shx rm -rf dist/*",
-    "build-dev": "parcel build ./src/index.html --no-optimize --public-url ./",
-    "prebuild": "shx rm -rf dist/*",
-    "build": "parcel build ./src/index.html --public-url ./",
-    "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
+    "build": "parcel build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
