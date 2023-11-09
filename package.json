@@ -2,7 +2,7 @@
   "name": "doranmartinez.github.io",
   "version": "1.0.0",
   "description": "",
-  "main": "app/src/index.js",
+  "homepage": "https://github.com/doranmartinez/doranmartinez.github.io",
   "scripts": {
     "dev": "parcel",
     "build": "parcel build",
