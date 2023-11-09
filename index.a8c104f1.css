@@ -1,0 +1,57 @@
+.body {
+  background: #fff;
+  margin: 0;
+}
+
+.divider {
+  border-right: 4px solid #000;
+  height: 100%;
+}
+
+.basic-info-name {
+  color: #000;
+  text-align: center;
+  cursor: pointer;
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.image-container {
+  justify-content: center;
+  display: flex;
+}
+
+.profile-pic {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.basic-info-bio {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+}
+
+.basic-info-project {
+  color: #00f;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.left-pane {
+  margin-left: 8vw;
+}
+
+.footer {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/*# sourceMappingURL=index.a8c104f1.css.map */
