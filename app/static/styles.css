@@ -10,6 +10,10 @@
     height: 100%;
 }
 
+.left-pane {
+    margin-left: 5vw;
+}
+
 .basic-info-name {
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
@@ -20,7 +24,7 @@
     cursor: pointer;
 }
 
-.image-container {
+.profile-pic-container {
     display: flex;
     justify-content: center;
 }
@@ -36,14 +40,15 @@
     font-size: 16px;
 }
 
-.basic-info-project{
+.basic-info-bio a {
     color: blue;
     text-decoration: none;
     cursor: pointer;
 }
 
-.left-pane {
-    margin-left: 8vw;
+.basic-info-socials {
+    display: flex;
+    justify-content: center;
 }
 
 .footer {

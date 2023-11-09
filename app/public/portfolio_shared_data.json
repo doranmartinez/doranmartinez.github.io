@@ -8,16 +8,16 @@
       "link": "https://github.com/doranmartinez/doranmartinez.github.io",
       "project": "this portfolio."
     },
-    "social": [
+    "socials": [
       {
         "name": "github",
         "url": "https://www.github.com/doranmartinez",
-        "class": ""
+        "class": "gh-social"
       },
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/doranmartinez/",
-        "class": ""
+        "class": "li-social"
       }
     ]
   },
